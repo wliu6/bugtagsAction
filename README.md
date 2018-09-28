@@ -1,7 +1,9 @@
 # bugtagsAction
 
 ## 配置
-
+```
+下载bugtags.rb文件，导入到iOS工程目录下的fastlane/actions/目录的下
+```
 
 ## 使用
 ```ruby
