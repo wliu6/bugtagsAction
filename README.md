@@ -1,4 +1,5 @@
 # bugtagsAction
+使用fastlane来做自动化，发现并不支持业务要求使用bugtags的action，添加了支持。
 
 ## 配置
 ```
