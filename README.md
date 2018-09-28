@@ -18,7 +18,7 @@ desc "打包到蒲公英"
     )
     
     bugtags(
-      dsym: "/Users/wangduorui/kszc_work/kszc_wsp/KaiShiBa_iOS/kaistart/app/kaiStart-Adhoc.app.dSYM.zip",
+      dsym: "`your-dsym-path`/xxx.app.dSYM.zip",
       app_key: "`your-app-key`",
       secret_key: "`your-secret-key`",
       app_version: "#{app_version}",
