@@ -18,9 +18,9 @@ desc "打包到蒲公英"
     )
     
     bugtags(
-      dsym: "`your-dsym-path`/xxx.app.dSYM.zip",
-      app_key: "`your-app-key`",
-      secret_key: "`your-secret-key`",
+      dsym: "your-dsym-path/xxx.app.dSYM.zip",
+      app_key: "your-app-key",
+      secret_key: "your-secret-key",
       app_version: "#{app_version}",
       app_build: "#{app_build}", 
     )
