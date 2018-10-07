@@ -10,7 +10,7 @@
 ```ruby
 desc "打包并上传dsym文件到bugtags"
   lane :topgy do
-    info_plist = "/Users/wangduorui/kszc_work/kszc_wsp/KaiShiBa_iOS/kaistart/kaistart/Info.plist"
+    info_plist = ".../Info.plist"
     app_version = sh("/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"#{info_plist}\"").chomp  
     app_build = sh("/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"#{info_plist}\"").chomp  
 
